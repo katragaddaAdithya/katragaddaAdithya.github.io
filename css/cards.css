@@ -1,0 +1,120 @@
+
+.list-card {
+	margin: 30px 0;
+}
+
+.list-card .exp , .list-card div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.list-card .exp {
+	margin-right: 15px;
+	font-weight: 600;
+	width: 100px;
+}
+
+.list-card div {
+	width: 70%;
+  text-align: left;
+}
+
+.list-card h3 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 26px;
+	margin-bottom: 8px;
+  text-align: left;
+}
+
+.list-card div span {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.sections {
+	vertical-align: top;
+	display: inline-block;
+	width: 49.7%;
+
+}
+
+.section-title {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.cards {
+	max-width: 1120px;
+	display: block;
+	margin-top: 200px;
+	margin-bottom: 0px;
+}
+
+.card {
+	background-color: #EEF0F7;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding: 50px 20px 30px 20px;
+}
+
+.title-card{
+  background-color: #6c757d ;
+  display: inline-block;
+  margin: 7px 5px;
+  vertical-align: top;
+  border-radius: 10px;
+  text-align: left;
+  padding: 30px 30px 20px 30px;
+
+}
+
+.title-card-active , .title-card:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	background-color: #6c757d;
+	box-shadow: 0px 5px 50px -8px #ddd;
+}
+
+.subtitle{
+  vertical-align: top;
+  border-radius: 10px;
+  text-align: left;
+  margin: 6px 6px 6px 0;
+  padding: 4px;
+}
+
+.card-active , .card:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	background-color: #fff;
+	box-shadow: 0px 5px 50px -8px #ddd;
+}
+
+.skill-level {
+	display: inline-block;
+	max-width: 160px;
+}
+.skill-level span {
+	font-size: 35px;
+	font-weight: 300;
+	vertical-align: top;
+}
+
+.skill-level h2 {
+	font-size: 95px;
+	font-weight: 300;
+	display: inline-block;
+	vertical-align: top;
+	color: #5B6A9A;
+	letter-spacing: -5px;
+}
+
+.skill-meta {
+	vertical-align: top;
+	text-align: left;
+}
